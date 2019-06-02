@@ -4,27 +4,35 @@ import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/Home'
 import List from '@/components/List'
 import Survey from '@/components/Survey'
+import Score from '@/components/Score'
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    
     {
-      path: '/',
-      name: '5', 
+      path: '/Survey',
+      name: 'Survey', 
       component: Survey
     },
     {
-      path: '/',
+      path: '/Score',
+      name: 'Score', 
+      component: Score
+    },
+    {
+      path: '/list',
       name: 'List', 
       component: List
     },
     {
-      path: '/',
+      path: '/Home',
       name: 'Home',
       component: Home
     },
+    
     {
-      path: '/',
+      path: '/HelloWorld',
       name: 'HelloWorld',
       component: HelloWorld
     }
