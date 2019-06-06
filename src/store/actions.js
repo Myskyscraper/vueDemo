@@ -8,6 +8,7 @@ const actions = {
     addNum({commit,state},id){
         commit('REMBER_ANSWER',id);
         commit('ADD_ITEMNUM',1);
+
     }
 };
 export default actions;

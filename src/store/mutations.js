@@ -16,6 +16,7 @@ const mutations = {
     },
     REMBER_ANSWER(state,id){
         state.answerid.push(id);
+
     }
 };
 export default mutations;

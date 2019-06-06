@@ -3,8 +3,10 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/Home'
 import List from '@/components/List'
+
 import Survey from '@/components/Survey'
 import Score from '@/components/Score'
+
 Vue.use(Router)
 
 export default new Router({
@@ -21,11 +23,7 @@ export default new Router({
       component: Score
     },
     {
-      path: '/list',
-      name: 'List', 
-      component: List
-    },
-    {
+
       path: '/Home',
       name: 'Home',
       component: Home
@@ -35,7 +33,18 @@ export default new Router({
       path: '/HelloWorld',
       name: 'HelloWorld',
       component: HelloWorld
-    }
+    },
     
+{
+      path: '/',
+      name: 'Home',
+      component: Home
+    },
+    {
+      path: '/',
+      name: 'HelloWorld',
+      component: HelloWorld
+    }
+
   ]
 })

@@ -1,3 +1,4 @@
+
 const state = {
     count: 2,
     number: 100,
@@ -164,6 +165,11 @@ const state = {
             "is_standard_answer": 0
         }]
     }],
-    answerid: [], //答案id
+    answerid: [], 
+    count:2,
+    number:100,
+    username:'doudou',
+    nickname:'tomhe',
+    password:123
 };
 export default state;
